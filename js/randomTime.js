@@ -88,7 +88,6 @@ var timeLoop = function() {
         updateProgressBar(newProgress + randomInterval(100 - newProgress));
         travelMath(rt);
         displayErrors(true);
-        //document.getElementById("timeError").setAttribute("style", "display:block;");
       }, inter);
     }else {
       setTimeout(function() {
